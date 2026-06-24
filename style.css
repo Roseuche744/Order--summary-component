@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:hsl(225,100%,94%);
+    font-family:Arial,sans-serif;
+}
+
+.card{
+    width:350px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.card img{
+    width:100%;
+}
+
+h1{
+    margin:20px 0;
+}
+
+p{
+    padding:0 20px;
+    color:gray;
+    line-height:1.5;
+}
+
+.plan{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f5f7ff;
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+}
+
+.payment-btn{
+    width:85%;
+    padding:12px;
+    border:none;
+    background:blue;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.cancel-btn{
+    margin-top:15px;
+    background:none;
+    border:none;
+    color:gray;
+    cursor:pointer;
+}
